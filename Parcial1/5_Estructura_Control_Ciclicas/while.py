@@ -11,3 +11,4 @@ while i<=10:
     multi=numero*i
     print(f"{numero} x {i} = {multi}")
     i+=1
+
