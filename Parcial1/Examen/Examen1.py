@@ -7,7 +7,8 @@ dias_tra=int(input("¿Dias Trabajados?"))
 suel_hor=(int(input("¿Sueldo por Hora?")))
 respuesta=(input("¿Desea Otra Capturar?"))
 solicitud
-if respuesta == 'si':
+respuesta='si'
+with respuesta == 'si':
     nomb_tra=(input("¿Nombre del Trabajador?"))
     hor_tra=float(input("¿Horas Trabajadas?"))
     dias_tra=int(input("¿Dias Trabajados?"))
@@ -26,6 +27,6 @@ if sueldo_men > 15000:
     cat='Sin categoria'
 sueldo_to=sueldo_men*solicitud
 
-print("Tu sueldo semanal es:",sueldo_sem,)
+print("Tu sueldo semanal es:",sueldo_sem)
 print(("Tu sueldo mensual es:",sueldo_men,"Eres obrero tipo:",cat))
 print("El total de trabajadores es:",solicitud,"El total de todos los sueldo es:",sueldo_to)

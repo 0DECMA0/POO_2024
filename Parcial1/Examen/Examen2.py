@@ -5,7 +5,7 @@ while rep =='si' :
     estatura=float(input("Ingresa tu Estatura"))
     imca= round(float(peso/(estatura*estatura)),2)
     rep=input("Deseas repetir")
-contador+1
+    contador+contador
 
 if imca <18.5:
     ps="Peso inferior al normal"
