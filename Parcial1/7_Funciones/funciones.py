@@ -22,6 +22,7 @@ def solicitarNombre():
 
 solicitarNombre()
 
+#Ejemplo 2 Suma dos numeros
 def suma():
     n1=int(input("Numero #1: "))
     n2=int(input("Numero #2: "))
@@ -29,5 +30,52 @@ def suma():
     print(f"{n1}+{n2}={suma}")
 
 suma()
-#Crea
+
+#Ejemplo 3 sumar dos numeros
+#2,- Funcion que no recibe parametros y regresa Valor
+
+def suma():
+    n1=int(input("Numero #1: "))
+    n2=int(input("Numero #2: "))
+    suma=n1+n2
+    return suma
+
+print(f"La suma es: {suma}")
+
+#Ejemplo  4 suma dos numeros
+#3,- Funcion que recibe parametros y no regresa Valor
+
+def suma(n1,n2):
+    suma=n1+n2
+    print(f"La suma es: {suma}")
+    
+n1=int(input("Numero #1: "))
+n2=int(input("Numero #2: "))    
+suma(n1,n2)
+
+
+
+#Ejemplo  5 suma dos numeros
+#4,- Funcion que recibe parametros y regresa Valor
+
+def suma(n1,n2):
+    suma=n1+n2
+    return suma
+
+n1=int(input("Numero #1: "))
+n2=int(input("Numero #2: ")) 
+resultado_suma=suma(n1,n2)   
+print(f"La suma es: {resultado_suma}")
+
+
+#Ejemplo 6 Crear un programa que solicite a tarves de una funcion la siguiente informacion:
+#Nombre del paciente , Edad, Estatura, Tipo de sangre , Utilizar los 4 tipo de funciones
+
+
+
+
+
+
+
+
 
