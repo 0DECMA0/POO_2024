@@ -5,13 +5,19 @@ def agregar_pelicula(peliculas):
     peliculas.append(pelicula)
     print(f"'{pelicula}' ha sido agregada a la lista.")
 
-def remover_pelicula(peliculas):
+def eliminar_pelicula(peliculas):
     pelicula = input("Ingrese el nombre de la película que desea remover: ")
     if pelicula in peliculas:
         peliculas.remove(pelicula)
-        print(f"'{pelicula}' ha sido removida de la lista.")
+        print(f"'{pelicula}' ha sido eliminada de la lista.")
     else:
         print(f"'{pelicula}' no se encuentra en la lista.")
+
+def actualizar_peliculas(peliculas):
+    if peliculas in peliculas:
+        actualizar_peliculas[peliculas] = peliculas
+    else:
+        print(f"La clave '{peliculas}' no existe en el diccionario.")
 
 def consultar_peliculas(peliculas):
     if peliculas:
